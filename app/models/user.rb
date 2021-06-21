@@ -7,6 +7,5 @@ class User < ApplicationRecord
  has_many :sns_credentials
 
  def self.from_omniauth(auth)
-    binding.pry
-  end
+ end
 end
